@@ -6,8 +6,8 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 import os
 # Twitter API credentials
-consumer_key = 'rJLAgD8uOHQUOKEO4Rt3fEdf0'
-consumer_secret = 'n4f5fYcBk5MHQx1VRYy0NIUFFVzXKFlXY3zMdiUiY38OBx6R7W'
+consumer_key = os.environ.get('CONSUMER_KEY')
+consumer_secret = os.environ.get('CONSUMER_SECRET')
 print(consumer_key,consumer_secret)
 callback_url = 'http://127.0.0.1:5000/callback'
 # Redirect route for initiating the login process
