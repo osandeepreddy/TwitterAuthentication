@@ -1,0 +1,44 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.twitter-button, .logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.twitter-button {
+    background-color: #1DA1F2;
+}
+
+.logout-button {
+    background-color: #1DA1F2;
+}
+
+.twitter-button img {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.twitter-button span {
+    vertical-align: middle;
+}
+
+.twitter-button:hover, .logout-button:hover {
+    background-color: #1672a8;
+}
